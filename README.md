@@ -54,9 +54,9 @@ copy "wakeb.prompt.md" "%APPDATA%\Code\User\prompts\wakeb.prompt.md"
 Open the copied file and update these paths to match your local setup:
 
 ```
-d:/Jervis Tech/Jervis Labs/Wakeb Skills/   ← path to the Wakeb Skills folder
-D:\Wakeb\Vue\aware-v2-dahsboard            ← path to the FE starter project
-D:\laragon\www\Starter-Backend             ← path to the BE starter project
+path/to/wakeb-skills/       ← path to the Wakeb Skills folder
+path/to/fe-starter/         ← path to the FE starter project
+path/to/be-starter/         ← path to the BE starter project
 ```
 
 ### 3. Use `@wakeb`
@@ -401,8 +401,8 @@ For any IDE, each team member needs to:
 
 1. **Clone or copy** the `Wakeb Skills` folder to their machine
 2. **Update paths** to point to their local starter projects:
-   - FE: their path to `aware-v2-dahsboard`
-   - BE: their path to `Starter-Backend`
+   - FE: their path to the FE starter project
+   - BE: their path to the BE starter project
 3. **Follow the IDE-specific setup** from the sections above
 
 ## Updating the Skills
